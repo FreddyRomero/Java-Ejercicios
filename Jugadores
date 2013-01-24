@@ -1,0 +1,21 @@
+import java.util.*;
+//import java.io.*;
+public class Nnom {
+
+public static void main(String[] args) {
+
+    Scanner jugador = new Scanner(System.in);
+    int i=0;
+    int n=0;
+
+    System.out.println ("Cuantos jugadores son?");
+    n = jugador.nextInt();
+    String nombre[] = new String[n];
+
+    for (i=0; i<n; i++) {
+        System.out.println("Ingresa el Nombre "+(i+1)+": ");
+        nombre[i] = jugador.next();
+
+        }
+    }
+}
